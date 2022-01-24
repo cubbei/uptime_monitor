@@ -3,7 +3,7 @@ A (very) simple uptime monitor for sites built in python using flask.
 
 This iteration keeps all the needed files (namely chart.js) available offline in the event of a total failure of the external internet connection. 
 
-**bugs likely**
+**bugs likely**  
 Use or don't - offered for convenience and for easy reference.
 
 ## installation
