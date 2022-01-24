@@ -1,0 +1,9 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
+}
