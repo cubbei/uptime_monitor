@@ -11,5 +11,7 @@ Use or don't - offered for convenience and for easy reference.
 2. install requirements with pip `pip install -r requirements.txt`
 
 ## running the site
-on windows: `py main.py`
+on windows: `py main.py`  
 on unix / macOS: `python3 main.py`
+
+site will start on: `http://localhost:5000/`
