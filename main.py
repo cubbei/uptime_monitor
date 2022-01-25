@@ -110,6 +110,9 @@ def home():
                 <br>
             <div>
             """
+    with open("template.html", "r") as f:
+        content = f.read()
+        return content.replace("{site_message}", site_message).replace("{site_boiler}", site_boiler)
 
 
 

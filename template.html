@@ -1,0 +1,28 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <title>Uptime Monitor</title>
+    </head>
+    <body>
+        <h1>Uptime Monitor</h1>
+        <h3>Currently Monitoring {site_message}</h3>
+        <div class="section" id="add-site">
+            <form action="/site">
+                <input type="text" id="site" name="site" placeholder="add a url to track here"/>
+                <input type="submit" value="add site">
+            </form>
+
+        </div>
+        <div id="charts" class="section">
+        {site_boiler}
+        </div>
+        <script src="/chart.js"></script>
+        <script src="/helpers.js"></script>
+        <script>
+            main();
+        </script>
+    </body>
+</html>
