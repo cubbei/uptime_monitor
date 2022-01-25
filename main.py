@@ -105,7 +105,7 @@ def home():
             id = site.replace("https://","").replace("http://","").replace(".","-")
             site_boiler += f"""
             <div class="site-stats">
-                <h4>Stats: {site}</h4>
+                <h4>Stats: <a href="{site}" target="_blank">{site.replace("http://","").replace("https://","")}</a></h4>
                 <canvas id="{id}" width="800" height="400"></canvas>
                 <br>
             <div>

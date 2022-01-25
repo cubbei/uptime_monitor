@@ -4,6 +4,39 @@ html {
 }
 
 body {
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
+}
+
+.container {
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+.footer {
+    border-top: 2px solid #999;
+    margin-top: 4em;
+    padding-top: 2em;
+    margin-bottom: 4em;
+    text-align: center;
+    color: #888;
+}
+
+a {
+    color: #2980b9;
+}
+
+a:hover {
+    color: #3498db;
+    text-decoration: dotted;
+}
+
+a:visited {
+    color: #9b59b6;
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        max-width: 780px;
+    }
 }

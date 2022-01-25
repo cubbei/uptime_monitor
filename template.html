@@ -7,17 +7,22 @@
         <title>Uptime Monitor</title>
     </head>
     <body>
-        <h1>Uptime Monitor</h1>
-        <h3>Currently Monitoring {site_message}</h3>
-        <div class="section" id="add-site">
-            <form action="/site">
-                <input type="text" id="site" name="site" placeholder="add a url to track here"/>
-                <input type="submit" value="add site">
-            </form>
-
-        </div>
-        <div id="charts" class="section">
-        {site_boiler}
+        <div class="container">
+            <h1>Uptime Monitor</h1>
+            <h3>Currently Monitoring {site_message}</h3>
+            <div class="section" id="add-site">
+                <form action="/site">
+                    <input type="text" id="site" name="site" placeholder="add a url to track here"/>
+                    <input type="submit" value="add site">
+                </form>
+    
+            </div>
+            <div id="charts" class="section">
+            {site_boiler}
+            </div>
+            <div class="footer">
+                <strong>created by <a href="http://github.com/cubbei" target="_blank">cubbei</a> in 2022</strong>
+            </div>
         </div>
         <script src="/chart.js"></script>
         <script src="/helpers.js"></script>
